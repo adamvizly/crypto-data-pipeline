@@ -20,16 +20,6 @@ Features
 - Data processing and insertion using Pandas and PostgresHook
 - Visualization-ready: Metabase connects to PostgreSQL to create dashboards
 
-Project Structure
-
-.
-├── dags/
-│   └── crypto_dag.py         # Airflow DAG for fetching and storing crypto data
-├── Dockerfile                # Custom Airflow image (if needed)
-├── docker-compose.yml        # Services: Airflow, PostgreSQL, Metabase
-├── .env                      # Environment variables for DB and Airflow
-└── README.md
-
 How It Works
 
 1. Airflow DAG (crypto_dag.py)
